@@ -31,7 +31,7 @@ function OdinNav(props) {
     ) : null;
 
     return (
-        <>
+        <div>
         <NavBar bg='dark' variant='dark'>
                 <NavBar.Brand href='#'>
                     <img
@@ -57,7 +57,7 @@ function OdinNav(props) {
             {/* </ErrorBoundary> */}
         </Tab.Content>
         </Tab.Container>
-        </>
+        </div>
     )
 }
 
