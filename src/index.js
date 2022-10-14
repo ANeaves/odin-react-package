@@ -6,4 +6,4 @@ export const ExampleComponent = ({ text }) => {
   return <div className={styles.test}>Example Component: {text}</div>
 }
 
-export { default } from './OdinNav';
+export { default as Button } from './OdinNav';
